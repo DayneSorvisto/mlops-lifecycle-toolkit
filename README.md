@@ -12,6 +12,10 @@
 
 In the multidisciplinary field of data science, there's a common tendency to overlook crucial aspects of MLOps such as code organization, the development of Extract, Load, Transform (ELT) pipelines, and the systematic arrangement of features into feature stores. These oversights among other challenges can hinder project efficiency and adherence to many MLOps best practices.
 
+Another challenge for data scientists adopting open source tools and MLOps practices is that while there may be great documentation already existing for each specific tool, there is a pittance of documentation that shows how to integrate the tools and use them together to accomplish an end-to-end workflow using only open source components.
+
+The purpose of teh toolkit is to solve these challenges by providing comprehensive documentation on how to use open-source components together in bespoke data science workflows.
+
 **Solution: Data Science Ops**
 
 One solution is an accelerator toolkit for adapting MLOps to data science specific workflows that is an agnostic, customizable and based entirely on open-source components. Providing documentation and a way to start using open-source components out of teh box in a custom data science workflow in a way that can accelerate progress and improve development experience.
