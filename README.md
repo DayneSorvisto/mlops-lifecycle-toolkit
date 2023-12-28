@@ -1,4 +1,10 @@
-# Open Source MLOps Toolkit Adapted for Data Science
+# MLOps Lifecycle Toolkit
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/DayneSorvisto/mlops-lifecycle-toolkit.svg)](https://github.com/DayneSorvisto/mlops-lifecycle-toolkit/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/DayneSorvisto/mlops-lifecycle-toolkit.svg)](https://github.com/DayneSorvisto/mlops-lifecycle-toolkit/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/DayneSorvisto/mlops-lifecycle-toolkit.svg)](https://github.com/DayneSorvisto/mlops-lifecycle-toolkit/pulls)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/DayneSorvisto/mlops-lifecycle-toolkit.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20MLOps%20Lifecycle%20Toolkit%20repository%20on%20GitHub:%20https://github.com/DayneSorvisto/mlops-lifecycle-toolkit)
 
 ## Project Overview:
 
