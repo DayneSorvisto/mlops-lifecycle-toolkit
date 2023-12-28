@@ -1,14 +1,14 @@
-# Open Source MLOps Toolkit for Data Science Projects
+# Open Source MLOps Toolkit Adapted for Data Science
 
 ## Project Overview:
 
-This repository accompanies the book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) that provides a beginner guide for adapting MLOps to data science and is based on work of evaluating over 50 different open source tools across the entire data landscape. 
+This repository accompanies the book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) that provides a beginner guide for adapting MLOps to data science projects and is based on work of evaluating over 50 different open source tools.  
 
-The primary objective of this project is to provide an open-source version of the MLOps Lifecycle Toolkit that can change as new tools are added with the aim of fostering community contributions and creating a comprehensive list of open-source components, code examples and documentation specifically adapted for data science projects. 
+The primary objective of this project is to provide an open-source version of the MLOps Lifecycle Toolkit that can change as new tools are added with the aim of accelerating data science projects and creating a comprehensive list of open-source components, code examples and documentation specifically adapting MLOps for data science projects. 
 
 ## Project Goals:
 
-- **Open Source Adaptation:** The project serves as an open-source adaptation of the MLOps Lifecycle Toolkit outlined in the book (contributions could make their way into future editions of the book and serve as documentation for beginners interested in adapting MLOps to data science). By making the toolkit open source, the goal is to encourage collaboration and contributions from the broader community.
+- **Open Source Adaptation:** The project serves as a fork of the MLOps Lifecycle Toolkit outlined in the book (contributions could make their way into future editions of the book and serve as documentation for beginners interested in adapting MLOps to data science). By making the toolkit open source, the goal is to encourage collaboration and contributions from the broader community.
 
 - **Comprehensive List:** The project aims to curate and maintain a comprehensive list of open-source tools spanning various domains within the emerging data science landscape. This includes MLOps, data engineering, business intelligence, databases, big data, LLMOps (Large Language Model Operations), and scientific computing and more as they are identified.
 
@@ -237,7 +237,6 @@ Let's collaborate to build a comprehensive and dynamic resource that empowers th
 62. **[LangChang](https://example-langchang-url.com/)**
     - LangChang is an open-source tool for Large Language Model Operations, providing capabilities for managing, deploying, and monitoring large language models.
 
-
 # Apress Source Code
 
 This repository accompanies [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) by Dayne Sorvisto (Apress, 2023).
@@ -251,6 +250,4 @@ Download the files as a zip using the green button, or clone the repository to y
 
 Release v1.0 corresponds to the code in the published book, without corrections or updates.
 
-## Contributions
 
-See the file Contributing.md for more information on how you can contribute to this repository.
