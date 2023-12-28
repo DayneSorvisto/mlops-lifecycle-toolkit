@@ -1,6 +1,6 @@
 # MLOps Lifecycle Toolkit
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Freeware-brightgreen.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/DayneSorvisto/mlops-lifecycle-toolkit.svg)](https://github.com/DayneSorvisto/mlops-lifecycle-toolkit/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/DayneSorvisto/mlops-lifecycle-toolkit.svg)](https://github.com/DayneSorvisto/mlops-lifecycle-toolkit/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/DayneSorvisto/mlops-lifecycle-toolkit.svg)](https://github.com/DayneSorvisto/mlops-lifecycle-toolkit/pulls)
