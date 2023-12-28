@@ -10,11 +10,11 @@
 
 **Challenge:**
 
-In the multidisciplinary field of of data science projects, there's a common tendency to overlook crucial aspects of data engineering and MLOps such as code organization, the development of Extract, Load, Transform (ELT) pipelines, and the systematic arrangement of features into feature stores. These oversights among other software engineering challenges can hinder project efficiency and adherence to many MLOps best practices.
+In the multidisciplinary field of data science, there's a common tendency to overlook crucial aspects of MLOps such as code organization, the development of Extract, Load, Transform (ELT) pipelines, and the systematic arrangement of features into feature stores. These oversights among other challenges can hinder project efficiency and adherence to many MLOps best practices.
 
 **Solution:**
 
-Introducing a toolkit for **Data Science Ops** that is intentionally unbiased and based entirely on open-source components to accelerate data science projects. The toolkit is well documented (based on a book for beginners) and written with data scientists, analysts in mind.
+Introducing a toolkit for **Data Science Ops** that is an agnostic, customizable accelerator based entirely on open-source components and written for data scientists looking for a way to start using these open source tools in their own workflow.
 
 This book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) provides documentation for adapting MLOps to data science projects after evaluating over 50 different open source tools. The toolkit itself is located in the src folder and is based on Python cookiecutter package so folder structure can be customzied. In additon there's docker compose file inside the infrastructure folder (a helm version will also be included in future release) that includes MLFlow and several other open source tools like Feast ready to use. 
 
