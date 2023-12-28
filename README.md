@@ -14,7 +14,7 @@ In the multidisciplinary field of data science, there's a common tendency to ove
 
 Another challenge for data scientists adopting open source tools and MLOps practices is that while there may be great documentation already existing for each specific tool, there is a pittance of documentation that shows how to integrate the tools and use them together to accomplish an end-to-end workflow using only open source components.
 
-The purpose of teh toolkit is to solve these challenges by providing comprehensive documentation on how to use open-source components together in bespoke data science workflows.
+The purpose of this toolkit is to solve these challenges by providing comprehensive documentation on how to use open-source components together in bespoke data science workflows.
 
 **Solution: Data Science Ops**
 
