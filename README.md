@@ -8,13 +8,13 @@
 
 ## Project Overview:
 
-This repository is based on the book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) that provides a beginner guide for adapting MLOps to data science projects after evaluating over 50 different open source tools. The toolkit itself is located in the src folder and is based on Python cookiecutter package so folder structure can be customzied. In additon there's docker compose file (a helm version will also be included in future release) that includes MLFlow and several other open source tools like Feast ready for to use. 
+This repository is based on the book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) that provides a beginner guide for adapting MLOps to data science projects after evaluating over 50 different open source tools. The toolkit itself is located in the src folder and is based on Python cookiecutter package so folder structure can be customzied. In additon there's docker compose file inside the infrastructure folder (a helm version will also be included in future release) that includes MLFlow and several other open source tools like Feast ready for to use. 
 
 To get started run 
 
 ```docker-compose up```
 
-The primary objective of this project is to provide an open-source version of the MLOps Lifecycle Toolkit that can change as new tools or best practices are introduces are added with the aim of accelerating data science projects, reducing dependency on notebooks and creating a comprehensive list of open-source components, code examples and documentation specifically adapting MLOps for data science projects. 
+The primary objective of this project is to provide a working, open-source version of the MLOps Lifecycle Toolkit that can change as new tools or best practices are introduces are added with the aim of accelerating data science projects, reducing dependency on notebooks and creating a comprehensive list of open-source components, code examples and documentation specifically adapting MLOps for data science projects. 
 
 ## Project Goals:
 
