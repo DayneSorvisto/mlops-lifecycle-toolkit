@@ -8,9 +8,9 @@
 
 ## Project Overview:
 
-This repository accompanies the book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) that provides a beginner guide for adapting MLOps to data science projects and is based on work of evaluating over 50 different open source tools.  
+This repository is based on the book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) that provides a beginner guide for adapting MLOps to data science projects after evaluating over 50 different open source tools. 
 
-The primary objective of this project is to provide an open-source version of the MLOps Lifecycle Toolkit that can change as new tools are added with the aim of accelerating data science projects, reducing dependency on notebooks and creating a comprehensive list of open-source components, code examples and documentation specifically adapting MLOps for data science projects. 
+The primary objective of this project is to provide an open-source version of the MLOps Lifecycle Toolkit that can change as new tools or best practices are introduces are added with the aim of accelerating data science projects, reducing dependency on notebooks and creating a comprehensive list of open-source components, code examples and documentation specifically adapting MLOps for data science projects. 
 
 ## Project Goals:
 
