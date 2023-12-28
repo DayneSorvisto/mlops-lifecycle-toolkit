@@ -12,17 +12,17 @@
 
 In the multidisciplinary field of data science, there's a common tendency to overlook crucial aspects of MLOps such as code organization, the development of Extract, Load, Transform (ELT) pipelines, and the systematic arrangement of features into feature stores. These oversights among other challenges can hinder project efficiency and adherence to many MLOps best practices.
 
-**Solution:**
+**Solution: Data Science Ops**
 
-Introducing a toolkit for **Data Science Ops** that is an agnostic, customizable accelerator based entirely on open-source components and written for data scientists looking for a way to start using these open source tools in their own workflow.
+One solution is an accelerator toolkit for adapting MLOps to data science specific workflows that is an agnostic, customizable and based entirely on open-source components. Providing documentation and a way to start using open-source components out of teh box in a custom data science workflow in a way that can accelerate progress and improve development experience.
 
-This book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) provides documentation for adapting MLOps to data science projects after evaluating over 50 different open source tools. The toolkit itself is located in the src folder and is based on Python cookiecutter package so folder structure can be customzied. In additon there's docker compose file inside the infrastructure folder (a helm version will also be included in future release) that includes MLFlow and several other open source tools like Feast ready to use. 
+This book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) walks through the process of building the toolkit step-by-step adding different tools to each chapter and showing how they can be used together. 
 
-To get started run 
+The project came about after evaluating over 50 different open source tools in the context of data science projects. The toolkit itself is located in the src folder and includes a Python cookiecutter package so folder structure can be customized. In additon there's docker compose file inside the infrastructure folder (a helm version will also be included in future release for deployment to a Kubernetes cluster) that includes MLFlow for experiment tracking and several other open source tools like Feast ready for feature stores ready to use. 
+
+Getting started is as simple as running
 
 ```docker-compose up```
-
-The primary objective of this project is to provide a working, open-source version of the MLOps Lifecycle Toolkit that can change as new tools or best practices are introduces are added with the aim of accelerating data science projects, reducing dependency on notebooks, creating an minimally opinionated customizable template for your own projects and providing a comprehensive list of open-source components, code examples and documentation specifically adapting MLOps for data science.
 
 ## Project Goals:
 
