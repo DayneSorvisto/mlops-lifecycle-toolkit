@@ -12,21 +12,21 @@
 
 In the multidisciplinary field of data science, there's a common tendency to overlook crucial aspects of MLOps such as code organization, the development of Extract, Load, Transform (ELT) pipelines, and the systematic arrangement of features into feature stores. These oversights among other challenges can hinder project efficiency and adherence to many MLOps best practices.
 
-Another challenge for data scientists adopting open source tools and MLOps practices is that while there may be great documentation already existing for each specific tool, there is a pittance of documentation that shows how to integrate the tools and use them together to accomplish an end-to-end workflow using only open source components or may require specialized knowledge to integrate these components into your data analysis workflow.
+Another challenge for data scientists adopting open source tools and MLOps practices is while there may be great documentation already existing for each specific tool, there is a pittance of documentation that shows how to integrate the tools and use them together to accomplish an end-to-end workflow using only open source components or may require specialized knowledge to integrate these components into your data analysis workflow.
 
-The purpose of this toolkit is to solve these two challenges by providing comprehensive documentation and examples on how to use open-source components together in bespoke data science workflow in a ready-to-use toolkit.
+The purpose of this toolkit accelerator is to solve these two challenges by providing comprehensive, integrated documentation and examples on how to use open-source components together in bespoke data science workflows.
 
 **Solution: Data Science Ops**
-
-A practical solution is to build documenation and examples in the form of an accelerator toolkit for adapting MLOps to data science specific workflows. This toolkit is agnostic, customizable and based entirely on open-source components. Providing documentation and a way to start using open-source components together (for example experiment tracking, storing features in a Postgres instance, building ELT pipelines in Airflow) custom data science workflow.
-
-This book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) walks through the process of building the toolkit step-by-step adding different tools to each chapter and showing how they can be used together. 
 
 The project came about after evaluating over 50 different open source tools in the context of data science projects. The toolkit itself is located in the src folder and includes a Python cookiecutter package so folder structure can be customized. In additon there's docker compose file inside the infrastructure folder (a helm version will also be included in future release for deployment to a Kubernetes cluster) that includes MLFlow for experiment tracking and several other open source tools like Feast ready for feature stores ready to use. 
 
 Getting started is as simple as running
 
 ```docker-compose up```
+
+A practical solution is to build documenation and examples in the form of an accelerator toolkit for adapting MLOps to data science specific workflows. This toolkit is agnostic, customizable and based entirely on open-source components (for example experiment tracking, storing features in a Postgres instance, building ELT pipelines in Airflow) custom data science workflow.
+
+This book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) walks through the process of building the toolkit step-by-step adding different tools to each chapter and showing how they can be used together. 
 
 ## Project Goals:
 
