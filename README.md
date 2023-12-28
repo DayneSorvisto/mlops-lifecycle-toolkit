@@ -12,7 +12,7 @@ This repository is based on the book [*MLOps Lifecycle Toolkit*](https://link.sp
 
 To get started run 
 
-```docker-compose up
+```docker-compose up```
 
 The primary objective of this project is to provide an open-source version of the MLOps Lifecycle Toolkit that can change as new tools or best practices are introduces are added with the aim of accelerating data science projects, reducing dependency on notebooks and creating a comprehensive list of open-source components, code examples and documentation specifically adapting MLOps for data science projects. 
 
