@@ -6,24 +6,6 @@
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/DayneSorvisto/mlops-lifecycle-toolkit.svg)](https://github.com/DayneSorvisto/mlops-lifecycle-toolkit/pulls)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/DayneSorvisto/mlops-lifecycle-toolkit.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20MLOps%20Lifecycle%20Toolkit%20repository%20on%20GitHub:%20https://github.com/DayneSorvisto/mlops-lifecycle-toolkit)
 
-## Project Overview:
-
-**Challenge:**
-
-In the multidisciplinary field of data science, there's a common tendency to overlook crucial aspects of MLOps such as code organization, the development of Extract, Load, Transform (ELT) pipelines, and the systematic arrangement of features into feature stores. These oversights among other challenges can hinder project efficiency and adherence to many MLOps best practices.
-
-Another challenge for data scientists adopting open source tools and MLOps practices is while there may be great documentation already existing for each specific tool, there is a pittance of documentation that shows how to integrate the tools and use them together to accomplish an end-to-end workflow using only open source components or may require specialized knowledge to integrate these components into your data analysis workflow.
-
-The purpose of this toolkit accelerator is to solve these two challenges by providing comprehensive, integrated documentation and examples on how to use open-source components together in bespoke data science workflows.
-
-# Solution
-
-Both a book and a piece of software, this repository is a piece of living documentation that uniquely combines a comprehensive book with practical software toolkit. This integrated approach provides users with up-to-date insights, blending theoretical foundations from the book with practical examples to get started. The list of open-source components can be updated directly in this README, tutorials integrated into the toolkit (in src folder) and future editions of the book providng theoretical foundations. 
-
-<p align="center">
-  <img src="https://mermaid.ink/img/pako:eNp1TzFuwzAM_ArBOfmAhwJx0kwFWsDepA6MxNZCLNKQJbRFkL9XsbOkQLfjHe_Iu6BTz9jgZ6JpgL61AjCX0zruTKt6fr9xAGT6gTVxDo5GOGoRTzmozIvO4q08mFvT6Uf-osT3gJN5S-RW-_M3xWnk_7x7c1BXIkteTtwDnHkJc4bXiQU6Lckx9Krjn5AdbLdPsBRpF7i3ghuMnCIFX6tebpLFPHBki02FntLZopVr3aOStfsRh01OhTdYplqTD4HqZ3Elr79pV2jT" alt="Mermaid Diagram" width="200" />
-</p>
-
 # Project Overview
 
 The project came about after evaluating over 50 different open source tools in the context of data science projects. The toolkit itself is located in the src folder and includes a Python cookiecutter package so folder structure can be customized. In additon there's docker compose file inside the infrastructure folder (a helm version will also be included in future release for deployment to a Kubernetes cluster) that includes MLFlow for experiment tracking and several other open source tools like Feast ready for feature stores ready to use. 
@@ -305,6 +287,24 @@ This repository accompanies [*MLOps Lifecycle Toolkit*](https://link.springer.co
 ![Cover image](978-1-4842-9641-7.jpg)
 
 The book covers how to build the toolkit in src folder step-by-step as well as evaluates many tools on this list and tries to be unbiased. 
+
+## Why I Wrote MLOps Lifecycle Toolkit
+
+**Challenge:**
+
+In the multidisciplinary field of data science, there's a common tendency to overlook crucial aspects of MLOps such as code organization, the development of Extract, Load, Transform (ELT) pipelines, and the systematic arrangement of features into feature stores. These oversights among other challenges can hinder project efficiency and adherence to many MLOps best practices.
+
+Another challenge for data scientists adopting open source tools and MLOps practices is while there may be great documentation already existing for each specific tool, there is a pittance of documentation that shows how to integrate the tools and use them together to accomplish an end-to-end workflow using only open source components or may require specialized knowledge to integrate these components into your data analysis workflow.
+
+The purpose of this toolkit accelerator is to solve these two challenges by providing comprehensive, integrated documentation and examples on how to use open-source components together in bespoke data science workflows.
+
+# Solution
+
+Both a book and a piece of software, this repository is a piece of living documentation that uniquely combines a comprehensive book with practical software toolkit. This integrated approach provides users with up-to-date insights, blending theoretical foundations from the book with practical examples to get started. The list of open-source components can be updated directly in this README, tutorials integrated into the toolkit (in src folder) and future editions of the book providng theoretical foundations. 
+
+<p align="center">
+  <img src="https://mermaid.ink/img/pako:eNp1TzFuwzAM_ArBOfmAhwJx0kwFWsDepA6MxNZCLNKQJbRFkL9XsbOkQLfjHe_Iu6BTz9jgZ6JpgL61AjCX0zruTKt6fr9xAGT6gTVxDo5GOGoRTzmozIvO4q08mFvT6Uf-osT3gJN5S-RW-_M3xWnk_7x7c1BXIkteTtwDnHkJc4bXiQU6Lckx9Krjn5AdbLdPsBRpF7i3ghuMnCIFX6tebpLFPHBki02FntLZopVr3aOStfsRh01OhTdYplqTD4HqZ3Elr79pV2jT" alt="Mermaid Diagram" width="200" />
+</p>
 
 
 
