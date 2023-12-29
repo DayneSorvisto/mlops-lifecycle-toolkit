@@ -21,7 +21,7 @@ The purpose of this toolkit accelerator is to solve these two challenges by prov
 Both a book and a piece of software, this repository is a piece of living documentation that uniquely combines a comprehensive book with practical software toolkit. This integrated approach provides users with up-to-date insights, blending theoretical foundations from the book with practical examples to get started. The list of open-source components can be updated directly in this README, tutorials integrated into the toolkit (in src folder) and future editions of the book providng theoretical foundations. 
 
 <p align="center">
-  <img src="https://mermaid.ink/img/pako:eNp1TzFuwzAM_ArBOfmAhwJx0kwFWsDepA6MxNZCLNKQJbRFkL9XsbOkQLfjHe_Iu6BTz9jgZ6JpgL61AjCX0zruTKt6fr9xAGT6gTVxDo5GOGoRTzmozIvO4q08mFvT6Uf-osT3gJN5S-RW-_M3xWnk_7x7c1BXIkteTtwDnHkJc4bXiQU6Lckx9Krjn5AdbLdPsBRpF7i3ghuMnCIFX6tebpLFPHBki02FntLZopVr3aOStfsRh01OhTdYplqTD4HqZ3Elr79pV2jT" alt="Mermaid Diagram" width="400" />
+  <img src="https://mermaid.ink/img/pako:eNp1TzFuwzAM_ArBOfmAhwJx0kwFWsDepA6MxNZCLNKQJbRFkL9XsbOkQLfjHe_Iu6BTz9jgZ6JpgL61AjCX0zruTKt6fr9xAGT6gTVxDo5GOGoRTzmozIvO4q08mFvT6Uf-osT3gJN5S-RW-_M3xWnk_7x7c1BXIkteTtwDnHkJc4bXiQU6Lckx9Krjn5AdbLdPsBRpF7i3ghuMnCIFX6tebpLFPHBki02FntLZopVr3aOStfsRh01OhTdYplqTD4HqZ3Elr79pV2jT" alt="Mermaid Diagram" width="200" />
 </p>
 
 # Project Overview
