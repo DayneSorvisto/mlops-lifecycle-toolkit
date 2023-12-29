@@ -1,4 +1,4 @@
-# MLOps Lifecycle Toolkit
+# Open Source MLOps End-to-End Toolkit
 
 [![License](https://img.shields.io/badge/License-Freeware-brightgreen.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/DayneSorvisto/mlops-lifecycle-toolkit.svg)](https://github.com/DayneSorvisto/mlops-lifecycle-toolkit/stargazers)
@@ -7,6 +7,8 @@
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/DayneSorvisto/mlops-lifecycle-toolkit.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20MLOps%20Lifecycle%20Toolkit%20repository%20on%20GitHub:%20https://github.com/DayneSorvisto/mlops-lifecycle-toolkit)
 
 # Project Overview
+
+How can we build an end-to-end MLOps software for data sciennce using only open-source components? 
 
 After evaluating over 100 different open source tools in the context of data science projects I distilled it into a comprehensive list and built examples in the form of a software accelerator for data science solving the problem of integrating many of these components together for use in an end-to-end project that includes data cleaning, model training, model inference, deployment and monitoring. 
 
