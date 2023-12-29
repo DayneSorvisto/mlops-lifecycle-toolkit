@@ -23,23 +23,8 @@ The purpose of this toolkit accelerator is to solve these two challenges by prov
 
 Both a book and a piece of software, this repository is a piece of living documentation that uniquely combines a comprehensive book with practical software toolkit. This integrated approach provides users with up-to-date insights, blending theoretical foundations from the book with practical examples to get started. The list of open-source components can be updated directly in this README, tutorials integrated into the toolkit (in src folder) and future editions of the book providng theoretical foundations. 
 
-:::mermaid
-graph TB
-  subgraph A[Book]
-    a[Theoretical Foundations]
-  end
-
-  subgraph B[Software]
-    b[Practical Examples]
-  end
-
-  subgraph C[Documentation]
-    c[List Open Source Tools]
-  end
-
-  A --> B
-  B --> C
-:::
+![Mermaid Diagram](https://www.mermaidchart.com/raw/39f24ed0-f107-420f-875b-e0cd9e582c66?theme=light&version=v0.1&format=svg
+)
 
 # Project Overview
 
