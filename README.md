@@ -16,7 +16,11 @@ Another challenge for data scientists adopting open source tools and MLOps pract
 
 The purpose of this toolkit accelerator is to solve these two challenges by providing comprehensive, integrated documentation and examples on how to use open-source components together in bespoke data science workflows.
 
-**Solution: Data Science Ops**
+# Solution: Living Documentation 
+
+Both a book and a piece of software, this repository is a piece of living documentation that uniquely combines a comprehensive book with practical software toolkit. This integrated approach provides users with up-to-date insights, blending theoretical foundations from the book with practical examples to get started. The list of open-source components can be updated directly in this README, tutorials integrated into the toolkit (in src folder) and future editions of the book providng theoretical foundations. 
+
+# Project Overview
 
 The project came about after evaluating over 50 different open source tools in the context of data science projects. The toolkit itself is located in the src folder and includes a Python cookiecutter package so folder structure can be customized. In additon there's docker compose file inside the infrastructure folder (a helm version will also be included in future release for deployment to a Kubernetes cluster) that includes MLFlow for experiment tracking and several other open source tools like Feast ready for feature stores ready to use. 
 
@@ -24,7 +28,7 @@ Getting started is as simple as running
 
 ```docker-compose up```
 
-A practical solution is to build documenation and examples in the form of an accelerator toolkit for adapting MLOps to data science specific workflows. This toolkit is agnostic, customizable and based entirely on open-source components (for example experiment tracking, storing features in a Postgres instance, building ELT pipelines in Airflow) custom data science workflow.
+A practical solution is to build documenation and examples in the form of an accelerator toolkit for adapting MLOps to data science specific workflows ("data science ops"). This toolkit is agnostic, customizable and based entirely on open-source components (for example experiment tracking, storing features in a Postgres instance, building ELT pipelines in Airflow) custom data science workflow.
 
 This book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) walks through the process of building the toolkit step-by-step adding different tools to each chapter and showing how they can be used together. 
 
