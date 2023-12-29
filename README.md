@@ -37,9 +37,9 @@ After evaluating over 100 different open source tools in the context of data sci
 
 ### Getting Started
 
-The "toolkit" itself is located in the src folder and includes a Python cookiecutter package so folder structure can be customized. In additon there's docker compose file inside the infrastructure folder 
+The "toolkit" itself is located in the src folder and includes a Python cookiecutter package so folder structure can be customized.
 
-Getting started is as simple as running
+Launch the platform by running
 
 ```docker compose up```
 
