@@ -30,7 +30,7 @@ This book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978
 
 ## Project Goals:
 
-- **Open Source Adaptation:** The project serves as a fork of the MLOps Lifecycle Toolkit outlined in the book (contributions could make their way into future editions of the book and serve as documentation for beginners interested in adapting MLOps to data science). By making the toolkit open source, the goal is to encourage collaboration and contributions from the broader community.
+- **Open Source Adaptation:** The project serves as a fork of the MLOps Lifecycle Toolkit outlined in the book (contributions could make their way into future editions of the book and serve as documentation for beginners interested in adapting MLOps to data science). By making the toolkit open source, the goal is to encourage collaboration and contributions from the broader MLOps community.
 
 - **Comprehensive List:** The project aims to curate and maintain a comprehensive list of open-source tools spanning various domains within the emerging data science landscape. This includes MLOps, data engineering, business intelligence, databases, big data, LLMOps (Large Language Model Operations), and scientific computing and more as they are identified.
 
