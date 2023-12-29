@@ -16,9 +16,29 @@ Another challenge for data scientists adopting open source tools and MLOps pract
 
 The purpose of this toolkit accelerator is to solve these two challenges by providing comprehensive, integrated documentation and examples on how to use open-source components together in bespoke data science workflows.
 
-# Solution: Living Documentation 
+# Solution
+
+## Living Documentation
+
 
 Both a book and a piece of software, this repository is a piece of living documentation that uniquely combines a comprehensive book with practical software toolkit. This integrated approach provides users with up-to-date insights, blending theoretical foundations from the book with practical examples to get started. The list of open-source components can be updated directly in this README, tutorials integrated into the toolkit (in src folder) and future editions of the book providng theoretical foundations. 
+
+graph TB
+  subgraph A[Book]
+    a[Theoretical Foundations]
+  end
+
+  subgraph B[Software]
+    b[Practical Examples]
+  end
+
+  subgraph C[Documentation]
+    c[List Open Source Tools]
+  end
+
+  A --> B
+  B --> C
+
 
 # Project Overview
 
