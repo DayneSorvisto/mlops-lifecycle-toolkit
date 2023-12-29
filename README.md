@@ -8,44 +8,13 @@
 
 # Project Overview
 
-The project came about after evaluating over 50 different open source tools in the context of data science projects. The toolkit itself is located in the src folder and includes a Python cookiecutter package so folder structure can be customized. In additon there's docker compose file inside the infrastructure folder (a helm version will also be included in future release for deployment to a Kubernetes cluster) that includes MLFlow for experiment tracking and several other open source tools like Feast ready for feature stores ready to use. 
+After evaluating over 100 different open source tools in the context of data science projects I distilled it into a comprehensive list and built examples in the form of a software accelerator for data science. The "toolkit" itself is located in the src folder and includes a Python cookiecutter package so folder structure can be customized. In additon there's docker compose file inside the infrastructure folder (a helm version will also be included in future release for deployment to a Kubernetes cluster) that includes MLFlow for experiment tracking and several other open source tools like Feast ready for feature stores ready to use. 
 
 Getting started is as simple as running
 
 ```docker-compose up```
 
-A practical solution is to build documenation and examples in the form of an accelerator toolkit for adapting MLOps to data science specific workflows ("data science ops"). This toolkit is agnostic, customizable and based entirely on open-source components (for example experiment tracking, storing features in a Postgres instance, building ELT pipelines in Airflow) custom data science workflow.
-
-This book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) walks through the process of building the toolkit step-by-step adding different tools to each chapter and showing how they can be used together. 
-
-## Project Goals:
-
-- **Open Source Adaptation:** The project serves as a fork of the MLOps Lifecycle Toolkit outlined in the book (contributions could make their way into future editions of the book and serve as documentation for beginners interested in adapting MLOps to data science). By making the toolkit open source, the goal is to encourage collaboration and contributions from the broader MLOps community.
-
-- **Comprehensive List:** The project aims to curate and maintain a comprehensive list of open-source tools spanning various domains within the emerging data science landscape. This includes MLOps, data engineering, business intelligence, databases, big data, LLMOps (Large Language Model Operations), and scientific computing and more as they are identified.
-
-- **Community Contributions:** Emphasizing the collaborative nature of open source, the project welcomes contributions from individuals with diverse backgrounds to build a robust and versatile toolkit that can be used across industries. 
-
-## How to Contribute:
-
-Contributions to the project are highly encouraged and can take various forms, including but not limited to:
-
-- **Adding New Tools:** If you know of open-source tools that are valuable for data science, MLOps, or related domains, feel free to add them to the list with a brief description.
-
-- **Re-organizing code structure:** If you knwo of a better way to organize the code base, or see an outdated piece of code or want to improve on a tutorial please send a PR. 
-
-- **Improving Descriptions:** Help enhance the clarity and informativeness of tool descriptions to make the list even more accessible and useful.
-
-- **Fixing Errors:** If you spot any inaccuracies or outdated information, please submit corrections to ensure the list remains accurate and up-to-date.
-
-- **Feedback and Suggestions:** Share your thoughts, ideas, and suggestions on how to improve the project and make it more beneficial for the community.
-
-## Getting Started:
-
-To contribute, simply fork the repository, make your changes, and submit a pull request. Refer to the [Contributing.md](Contributing.md) file for detailed information on how to contribute to this open-source project.
-
-Let's collaborate to build a comprehensive and dynamic resource that empowers the data science community!
-
+A step-by-step approach to building the toolkit is given in my book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) where many tools in this list are added chapter by chapter. 
 
 ## MLOps Tools:
 
@@ -278,6 +247,36 @@ A collection of open-source tutorials on MLOps to help you learn and implement m
 8. **Machine Learning Operations (MLOps) Workshop**
    - A workshop covering MLOps concepts and practical implementation.
    - [GitHub Repository](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp/06-production)
+  
+
+## Project Goals:
+
+- **Open Source Adaptation:** The project serves as a fork of the MLOps Lifecycle Toolkit outlined in the book (contributions could make their way into future editions of the book and serve as documentation for beginners interested in adapting MLOps to data science). By making the toolkit open source, the goal is to encourage collaboration and contributions from the broader MLOps community.
+
+- **Comprehensive List:** The project aims to curate and maintain a comprehensive list of open-source tools spanning various domains within the emerging data science landscape. This includes MLOps, data engineering, business intelligence, databases, big data, LLMOps (Large Language Model Operations), and scientific computing and more as they are identified.
+
+- **Community Contributions:** Emphasizing the collaborative nature of open source, the project welcomes contributions from individuals with diverse backgrounds to build a robust and versatile toolkit that can be used across industries. 
+
+## How to Contribute:
+
+Contributions to the project are highly encouraged and can take various forms, including but not limited to:
+
+- **Adding New Tools:** If you know of open-source tools that are valuable for data science, MLOps, or related domains, feel free to add them to the list with a brief description.
+
+- **Re-organizing code structure:** If you knwo of a better way to organize the code base, or see an outdated piece of code or want to improve on a tutorial please send a PR. 
+
+- **Improving Descriptions:** Help enhance the clarity and informativeness of tool descriptions to make the list even more accessible and useful.
+
+- **Fixing Errors:** If you spot any inaccuracies or outdated information, please submit corrections to ensure the list remains accurate and up-to-date.
+
+- **Feedback and Suggestions:** Share your thoughts, ideas, and suggestions on how to improve the project and make it more beneficial for the community.
+
+## Getting Started:
+
+To contribute, simply fork the repository, make your changes, and submit a pull request. Refer to the [Contributing.md](Contributing.md) file for detailed information on how to contribute to this open-source project.
+
+Let's collaborate to build a comprehensive and dynamic resource that empowers the data science community!
+
 
 # Supporting the project
 
