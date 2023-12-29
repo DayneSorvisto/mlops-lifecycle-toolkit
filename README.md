@@ -266,18 +266,46 @@ Let's collaborate to build a comprehensive and dynamic resource that empowers th
 
 62. **[LangChang](https://example-langchang-url.com/)**
     - LangChang is an open-source tool for Large Language Model Operations, providing capabilities for managing, deploying, and monitoring large language models.
+   
+# MLOps Tutorials
 
-# Apress Source Code
+A collection of open-source tutorials on MLOps to help you learn and implement machine learning operations best practices.
+
+1. **MLOps with TensorFlow Extended (TFX)**
+   - [GitHub Repository](https://github.com/tensorflow/tfx)
+
+2. **MLflow: An Open Platform for the Complete Machine Learning Lifecycle**
+   - [GitHub Repository](https://github.com/mlflow/mlflow)
+
+3. **DVC: Data Version Control - Make your data science projects reproducible and shareable**
+   - [GitHub Repository](https://github.com/iterative/dvc)
+
+4. **Kubeflow: Machine Learning Toolkit for Kubernetes**
+   - [GitHub Repository](https://github.com/kubeflow/kubeflow)
+
+5. **MLOps Practical Tutorial with CI/CD, CD4ML, A/B Testing, and Canary Deployment**
+   - [GitHub Repository](https://github.com/gnsya/ci-cd-for-ml)
+
+6. **End-to-End MLOps Project with Azure Machine Learning**
+   - [GitHub Repository](https://github.com/microsoft/MLOps-E2E)
+
+7. **MLOps Examples**
+   - A collection of end-to-end MLOps examples using various tools.
+   - [GitHub Repository](https://github.com/visenger/awesome-mlops)
+
+8. **Machine Learning Operations (MLOps) Workshop**
+   - A workshop covering MLOps concepts and practical implementation.
+   - [GitHub Repository](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp/06-production)
+
+# Supporting the project
 
 This repository accompanies [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) by Dayne Sorvisto (Apress, 2023).
 
 [comment]: #cover
 ![Cover image](978-1-4842-9641-7.jpg)
 
-Download the files as a zip using the green button, or clone the repository to your machine using Git.
+The book covers how to build the toolkit in src folder step-by-step as well as evaluates many tools on this list and tries to be unbiased. 
 
-## Releases
 
-Release v1.0 corresponds to the code in the published book, without corrections or updates.
 
 
