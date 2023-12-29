@@ -8,11 +8,13 @@
 
 # Project Overview
 
-After evaluating over 100 different open source tools in the context of data science projects I distilled it into a comprehensive list and built examples in the form of a software accelerator for data science. The "toolkit" itself is located in the src folder and includes a Python cookiecutter package so folder structure can be customized. In additon there's docker compose file inside the infrastructure folder (a helm version will also be included in future release for deployment to a Kubernetes cluster) that includes MLFlow for experiment tracking and several other open source tools like Feast ready for feature stores ready to use. 
+After evaluating over 100 different open source tools in the context of data science projects I distilled it into a comprehensive list and built examples in the form of a software accelerator for data science. The "toolkit" itself is located in the src folder and includes a Python cookiecutter package so folder structure can be customized. In additon there's docker compose file inside the infrastructure folder (a Helm version will also be included in future release for deployment to a Kubernetes cluster as well as possibly a PyPi package if there are enough utilities, modules or data connectors that are useful) that includes MLFlow for experiment tracking and several other open source tools like Feast ready for feature stores ready to use. 
 
 Getting started is as simple as running
 
 ```docker-compose up```
+
+inside the infrastructure folder (there's a end-to-end pipeline with experiment tracking set-up) there's also numerous other data connectors and utilities (for example evaluating model fairness) for working with many of the open-source components in the below list.
 
 A step-by-step approach to building the toolkit is given in my book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) where many tools in this list are added chapter by chapter. 
 
