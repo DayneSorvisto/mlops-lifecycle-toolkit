@@ -1,4 +1,5 @@
-# Open Source MLOps End-to-End Toolkit
+# MLOps Platform Toolkit
+## Pluggable open source components 
 
 [![License](https://img.shields.io/badge/License-Freeware-brightgreen.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/DayneSorvisto/mlops-lifecycle-toolkit.svg)](https://github.com/DayneSorvisto/mlops-lifecycle-toolkit/stargazers)
