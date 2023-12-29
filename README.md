@@ -45,7 +45,7 @@ Launch the platform by running
 
 inside the infrastructure folder (there's a end-to-end pipeline with experiment tracking set-up) there's also numerous other data connectors and utilities (for example evaluating model fairness) for working with many of the open-source components in the below list.
 
-A step-by-step approach to building the toolkit is given in my book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) where many tools in this list are added chapter by chapter. 
+A step-by-step approach to building the toolkit is given in my book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) where many tools in this list are added chapter by chapter and covers many of the tools in this list (feel free to contribute more as this is a dynamic list):
 
 ## MLOps Tools:
 
@@ -318,7 +318,7 @@ This repository accompanies [*MLOps Lifecycle Toolkit*](https://link.springer.co
 
 The book covers how to build the toolkit in src folder step-by-step as well as evaluates many tools on this list and tries to be unbiased. 
 
-## Why I Wrote MLOps Lifecycle Toolkit
+## Why I Wrote MLOps Lifecycle Toolkit 
 
 **Challenge:**
 
