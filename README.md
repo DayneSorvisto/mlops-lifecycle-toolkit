@@ -8,9 +8,9 @@
 
 # Project Overview
 
-How can we build an end-to-end software for data analysis using only open-source components? 
+How can we build a free, extensible end-to-end software for data science using only open-source components? 
 
-After evaluating over 100 different open source tools in the context of data science projects I distilled it into a comprehensive list and built examples in the form of a software accelerator for data science solving the problem of integrating many of these components together for use in an end-to-end data cleaning, model training, model inference, deployment and monitoring. 
+After evaluating over 100 different open source tools in the context of data science projects I distilled it into a comprehensive list of possible components (documented below) and integrated the most useful ones in the form of a software accelerator for data science including end-to-end data cleaning, model training, model inference, deployment and monitoring. 
 
 ## Features
 
@@ -20,19 +20,8 @@ After evaluating over 100 different open source tools in the context of data sci
   - Feature Store
   - Exploratory Data Analysis
   - Custom Python packages
-  - Training Pipelines
-  - Inference Pipelines
-
-## Roadmap
-
-### Current Roadmap:
-
-- Enhance Experiment Tracking capabilities
-- Expand Feature Store functionality
-- Optimize Exploratory Data Analysis tools
-- Integrate custom Python packages seamlessly
-- Improve Training Pipelines efficiency
-- Enhance Inference Pipelines for better performance
+  - Training Pipelines 
+  - Inference Pipelines 
 
 ### Future Roadmap:
 
@@ -41,12 +30,13 @@ After evaluating over 100 different open source tools in the context of data sci
 - Enhance user experience for workflow customization
 
 - Implement a Metastore to enable open-source components
-- Foster community collaboration for shared resources
-- Extend support for third-party integrations
+- Extend support for third-party integrations and data connectors via PyPi package
+- Helm charts for deployment to Kubernetes
+- Increase test coverage, documentation and improve organization 
 
 ### Getting Started
 
-The "toolkit" itself is located in the src folder and includes a Python cookiecutter package so folder structure can be customized. In additon there's docker compose file inside the infrastructure folder (a Helm version will also be included in future release for deployment to a Kubernetes cluster contact if interested in this) several other open source tools like Feast ready for feature stores ready to use. 
+The "toolkit" itself is located in the src folder and includes a Python cookiecutter package so folder structure can be customized. In additon there's docker compose file inside the infrastructure folder 
 
 Getting started is as simple as running
 
