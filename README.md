@@ -14,7 +14,7 @@ The "toolkit" itself is located in the src folder and includes a Python cookiecu
 
 Getting started is as simple as running
 
-```docker-compose up```
+```docker compose up```
 
 inside the infrastructure folder (there's a end-to-end pipeline with experiment tracking set-up) there's also numerous other data connectors and utilities (for example evaluating model fairness) for working with many of the open-source components in the below list.
 
