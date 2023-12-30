@@ -32,7 +32,7 @@ Launch the platform by running
 
 inside the infrastructure folder.
 
-A step-by-step approach to building the toolkit is given in my book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) where many tools in this list are added chapter by chapter and covers many of the tools in this list (feel free to contribute more as this is a dynamic list):
+A step-by-step approach to building the toolkit located in src is given in my book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) where many tools in this list were evaluated (something close to 100 open source tool). feel Free to contribute more tools, re-organize the list or add new categories.
 
 ## MLOps Tools Comprehensive List:
 
