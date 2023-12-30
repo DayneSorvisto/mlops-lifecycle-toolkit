@@ -9,7 +9,7 @@
 
 # Project Overview
 
-This project is both a dynamic list of open source tools for MLOps organized by category as well as an accelerator with practical examples of using these components to achieve and end-to-end workflow from data cleaning, EDA and visualization to model, feature stores, model training, serving deployment and monitoring.
+This project is both a dynamic list of open source tools for MLOps organized by category as well as an accelerator with practical examples of using these components to achieve an end-to-end workflow from data cleaning, EDA and visualization to model, feature stores, model training, serving deployment and monitoring.
 
 ## Features
 
@@ -30,9 +30,9 @@ Launch the platform by running
 
 ```docker compose up```
 
-inside the infrastructure folder.
+inside the infrastructure folder (a helm version can be added in future for cloud deployments).
 
-A step-by-step approach to building the toolkit located in src is given in my book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) where many tools in this list were evaluated (something close to 100 open source tool). feel Free to contribute more tools, re-organize the list or add new categories.
+A step-by-step approach to building this toolkit located in src is given in my book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) where many tools in this list were evaluated (something close to 100 open source tool). Feel free to contribute more tools, re-organize the list or add new categories.
 
 ## MLOps Tools Comprehensive List:
 
