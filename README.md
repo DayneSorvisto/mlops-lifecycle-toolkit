@@ -21,8 +21,9 @@ After evaluating over 100 different open source tools in the context of data sci
   - Feature Store
   - Exploratory Data Analysis
   - Custom Python packages
-  - Training Pipelines 
-  - Inference Pipelines 
+  - Training Pipelines Examples 
+  - Inference Pipelines Examples
+  - Metastore for tracking components 
 
 ### Getting Started
 
