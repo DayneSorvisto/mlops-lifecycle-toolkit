@@ -9,7 +9,7 @@
 
 # Project Overview
 
-How can we build a free, extensible end-to-end software for data science using only open-source components? 
+How can we build an extensible toolkit (using only open source components) for end-to-end data science pipelines across the entire MLOps lifecycle (from data cleaning, feature engineering through to model deployment and monitoring) and reduce dependency on notebooks in production?
 
 After evaluating over 100 different open source tools in the context of data science projects I distilled it into a comprehensive list of possible components (many are also documented in my book MLOps Lifecycle Toolkit by Apress, 2023) and integrated the most useful ones in the form of a software accelerator for data science including end-to-end data cleaning, model training, model inference, deployment and monitoring. 
 
