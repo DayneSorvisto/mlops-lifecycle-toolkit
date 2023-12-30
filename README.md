@@ -1,5 +1,5 @@
 # MLOps Toolkit
-## Pluggable open source components 
+## Data science project accelerator
 
 [![License](https://img.shields.io/badge/License-Freeware-brightgreen.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/DayneSorvisto/mlops-lifecycle-toolkit.svg)](https://github.com/DayneSorvisto/mlops-lifecycle-toolkit/stargazers)
@@ -9,21 +9,18 @@
 
 # Project Overview
 
-How can we build an extensible toolkit (using only open source components) for end-to-end data science pipelines across the entire MLOps lifecycle (from data cleaning, feature engineering through to model deployment and monitoring) and reduce dependency on notebooks in production?
-
-After evaluating over 100 different open source tools in the context of data science projects I distilled it into a comprehensive list of possible components (many are also documented in my book MLOps Lifecycle Toolkit by Apress, 2023) and integrated the most useful ones in the form of a software accelerator for data science including end-to-end data cleaning, model training, model inference, deployment and monitoring. In the future, a Helm chart version of the toolkit made be made available for cloud deployments.
+This project is both a dynamic list of open source tools for MLOps organized by category as well as an accelerator with practical examples of using these components to achieve and end-to-end workflow from data cleaning, EDA and visualization to model, feature stores, model training, serving deployment and monitoring.
 
 ## Features
 
 - Entirely code-driven for a customizable workflow
 - Supports:
-  - Experiment Tracking
-  - Feature Store
+  - Experiment Tracking via MLFlow
+  - Feature Store ising Feast
   - Exploratory Data Analysis
   - Custom Python packages
   - Training Pipelines Examples 
   - Inference Pipelines Examples
-  - Metastore for tracking components 
 
 ### Getting Started
 
@@ -33,11 +30,11 @@ Launch the platform by running
 
 ```docker compose up```
 
-inside the infrastructure folder (there's a end-to-end pipeline with experiment tracking set-up) there's also numerous other data connectors and utilities (for example evaluating model fairness) for working with many of the open-source components in the below list.
+inside the infrastructure folder.
 
 A step-by-step approach to building the toolkit is given in my book [*MLOps Lifecycle Toolkit*](https://link.springer.com/book/10.1007/978-1-4842-9642-4) (Apress, 2023) where many tools in this list are added chapter by chapter and covers many of the tools in this list (feel free to contribute more as this is a dynamic list):
 
-## MLOps Tools:
+## MLOps Tools Comprehensive List:
 
 1. **[MLflow](https://mlflow.org/)**
    - MLflow is an open-source platform for managing the end-to-end machine learning lifecycle, including tools for tracking experiments, packaging code into reproducible runs, and sharing and deploying models.
@@ -71,7 +68,7 @@ A step-by-step approach to building the toolkit is given in my book [*MLOps Life
 10. **[Dagster](https://dagster.io/)**
     - Dagster is an open-source data orchestrator for machine learning, analytics, and ETL workflows.
 
-## Business Intelligence Tools:
+## Visualization Tools:
 
 11. **[Metabase](https://www.metabase.com/)**
     - Metabase is an easy-to-use open-source business intelligence tool for data visualization, exploration, and collaboration.
@@ -85,7 +82,7 @@ A step-by-step approach to building the toolkit is given in my book [*MLOps Life
 14. **[Holoviews](http://holoviews.org/)**
     - Holoviews is an open-source Python library simplifying data visualization, making it easy to explore, understand, and communicate data.
 
-## Database (PostgreSQL) Tools:
+## Analytics Database Tools:
 
 15. **[pgAdmin](https://www.pgadmin.org/)**
     - pgAdmin is a popular open-source administration and management tool for the PostgreSQL database.
@@ -151,8 +148,6 @@ A step-by-step approach to building the toolkit is given in my book [*MLOps Life
 
 35. **[AthenaX](https://uber.github.io/athenax/)**
     - AthenaX is an open-source streaming analytics platform.
-
-## Big Data Tools (Continued):
 
 36. **[Apache Drill](https://drill.apache.org/)**
     - Apache Drill is an open-source schema-free SQL query engine for large-scale data exploration and analysis.
@@ -278,26 +273,11 @@ A collection of open-source tutorials on MLOps to help you learn and implement m
 
 - **Community Contributions:** Emphasizing the collaborative nature of open source, the project welcomes contributions from individuals with diverse backgrounds to build a robust and versatile toolkit that can be used across industries. 
 
-## How to Contribute:
-
-Contributions to the project are highly encouraged and can take various forms, including but not limited to:
-
-- **Adding New Tools:** If you know of open-source tools that are valuable for data science, MLOps, or related domains, feel free to add them to the list with a brief description.
-
-- **Re-organizing code structure:** If you knwo of a better way to organize the code base, or see an outdated piece of code or want to improve on a tutorial please send a PR. 
-
-- **Improving Descriptions:** Help enhance the clarity and informativeness of tool descriptions to make the list even more accessible and useful.
-
-- **Fixing Errors:** If you spot any inaccuracies or outdated information, please submit corrections to ensure the list remains accurate and up-to-date.
-
-- **Feedback and Suggestions:** Share your thoughts, ideas, and suggestions on how to improve the project and make it more beneficial for the community.
-
-## Getting Started:
+## Contributing:
 
 To contribute, simply fork the repository, make your changes, and submit a pull request. Refer to the [Contributing.md](Contributing.md) file for detailed information on how to contribute to this open-source project.
 
 Let's collaborate to build a comprehensive and dynamic resource that empowers the data science community!
-
 
 # Supporting the project
 
