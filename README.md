@@ -9,7 +9,7 @@
 
 # Project Overview
 
-An accelerator with practical examples of using these components to achieve an end-to-end workflow from data cleaning, EDA and visualization to model, feature stores, model training, serving deployment and monitoring.
+An accelerator for adapting MLOPs to bespoke data science projects with practical examples of using these components to achieve an end-to-end workflow from data cleaning, EDA and visualization to model, feature stores, model training, serving deployment and monitoring.
 
 ## Features
 
